@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team — Woodward Renovations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container-wide">
+      <nav class="nav-bar">
+        <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Woodward Renovations" style="height:40px;"></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="team.html" class="active">Team</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Team Section -->
+  <div class="section-bar">
+    <div class="section-header">Our Team <span class="section-header-line"></span></div>
+  </div>
+
+  <section style="padding: 60px 0;">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+        <h2 style="font-size: 28px; font-weight: 700; margin-bottom: 16px; color: #1c1c1c;">Meet the Woodward Renovations Team</h2>
+        <p style="font-size: 15px; color: #666; line-height: 1.8; margin-bottom: 40px;">Our team is dedicated to providing high-quality service and attention to detail in every project. With years of experience in home renovation and property management, we are committed to transforming your vision into reality.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+        <div class="testimonial-card" style="padding: 30px;">
+          <div class="testimonial-avatar" style="width:140px; height:140px;">
+            <img src="images/team-mwoodward.jpg" alt="Michael Woodward Sr." style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          </div>
+          <h4>Michael Woodward Sr.</h4>
+          <p style="font-size: 13px; color: #c8860a; margin-bottom: 12px;">Founder &amp; CEO</p>
+          <p style="font-size: 14px; color: #666;">Michael Woodward Sr. began his interest in real estate renovations as a youth working with his grandfather, father and great uncle doing handyman and maintenance services. He purchased his first property and renovated it himself at just 20 years old. Utilizing all of his prior knowledge and experience in real estate, Michael turned a part time residual income opportunity into a full time business when he started Woodward Property Group. Today, Woodward Property Group is a full service home improvement and property management company that has been providing exceptional home renovation and property management services since 2012.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61574337836732" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <a href="https://www.instagram.com/woodwardrenos" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg></a>
+      <a href="https://www.linkedin.com/company/woodward-property-group/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg></a>
+      <a href="https://www.tiktok.com/@woodwardrenovations" class="social-icon" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.63a8.23 8.23 0 004.77 1.52V6.69h-1.01z"/></svg></a>
+    </div>
+    <div class="footer-links"><a href="privacy-policy.html">Privacy Policy</a><span>|</span><a href="#">Legal Notice</a></div>
+  </footer>
+
+  <script>document.getElementById('navToggle').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});</script>
+</body>
+</html>
